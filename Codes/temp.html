@@ -1,0 +1,29 @@
+
+
+
+ 
+ <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" value="a"><span class="glyphicon glyphicon-user"></span> <?php echo $name?>
+     <span class="caret"></span></button>
+     
+    <ul class="dropdown-menu dropdown-menu-right">
+	  <li><a href="#">Home</a></li>
+      <li><a href="#">My Profile</a></li>
+      <li><a href="#">Notifications</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+ </div>
+
+
+
+
+ 
+<div class="grid-container">
+	  <div class="grid-item"><button  type="button" value="profile" data-toggle="modal" data-target="#viewprofile"><font lang="" size="10">View Profile</font></button></div>
+	  <div class="grid-item"><button onClick="parent.location='viewmaids.php'" type="button" value="maids"><font size="10">View Maids</font></button></div>
+	  <div class="grid-item"><button onClick="parent.location='search.php'" type="button" value="req"><font size="10">Check Requirements</font></button></div>  
+	  <div class="grid-item"><button onClick="parent.location='requirements.php'" type="button" value="postrequest"><font size="10">Post Requirements</font></button></div>
+	  <div class="grid-item"><button onClick="parent.location='financialdtails.php'" type="button" value="fin"><font size="10">Financial Details</font></button></div>
+	  <div class="grid-item"><button onClick="parent.location='help.php'" type="button" value="help"><font size="10">Help</font></button></div>  
+</div>
+
